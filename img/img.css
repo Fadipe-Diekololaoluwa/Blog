@@ -1,0 +1,27 @@
+h1{
+    color: white;
+    overflow: hidden;
+}
+
+#link{
+    float: left;
+}
+
+body{
+    margin: 0px auto;
+    background-color: black;
+    padding: 50px;
+}
+
+article{
+    float: right;
+    border-bottom: 1px lightgrey solid;
+    color: white
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid white;
+    overflow: hidden;
+    color: white;
+}

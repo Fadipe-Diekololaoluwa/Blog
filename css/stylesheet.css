@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+#logo{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+    float: left;
+}
+
+h2, h3{
+    margin: 0px;
+}
+
+body{
+    background-color: aqua;
+    margin: 20px 0px;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size: 2em;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+
+article{
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+}
+
+article:last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+footer{
+padding: 20px;
+border-top:1px solid lightgrey ;
+text-align: center;
+}
+
+a:active{
+    color: blue;
+    background-color: aqua;
+}
+
+a:hover{
+    color: antiquewhite;
+    background-color: grey;
+}
+
+aside h3{
+    background-color: deepskyblue;
+    color: white;
+}
+
+aside a{
+    color: black;
+}
